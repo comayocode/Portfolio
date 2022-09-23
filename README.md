@@ -1,3 +1,3 @@
 # Mi diseño para el desarrollo del portafolio
 
-<img src="DiseñoPortafolio.png">
+<img src = "DiseñoFigma/DiseñoPortafolio.png">
