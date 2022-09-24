@@ -2,6 +2,7 @@
 body{
     font-family: 'Inter', sans-serif;
     overflow-x: hidden;
+    background-color: var(--body-bg);
 }
 
 /* +========== MENU ==========+ */
@@ -9,6 +10,11 @@ body{
     font-size: 16px;
     font-weight: 400;
     color: #ffffff;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
 }
 
 .container-fluid{
@@ -28,7 +34,7 @@ body{
 }
 
 .bg-nav{
-    background-color: #272A40;
+    background-color: var(--secondary-bg);
 }
 
 .btn-resume{
@@ -38,6 +44,7 @@ body{
     padding: 8px 12px;
     font-size: 16px;
     font-weight: 400;
+    transition-duration: 0.6s;
 }
 
 .btn-resume:hover{
@@ -47,11 +54,12 @@ body{
 /* +========== HERO ==========+ */
 
 #hero{
-    background-color: #313552;
+    background-color: var(--primary-bg);
 }
 
 .hero-container{
     max-width: 751px;
+    margin-top: 50px;
 }
 
 .hero-img{
@@ -69,3 +77,85 @@ body{
     color: #ffffff;
 }
 
+/* +========== ABOUT ==========+ */
+
+#about{
+    margin-top: 100px;
+    background-color: var(--primary-bg);
+}
+
+.about-container{
+    max-width: 751px;
+}
+
+.about-me-tittle{
+    color: var(--tittle-section);
+    font-size: 26px;
+}
+
+.about-me-span{
+    color: var(--web-primary-color);
+}
+
+.about-me-line{
+    margin-left: 20px;
+}
+
+.selft-description{
+    color: var(--desc-section);
+    font-size: 22px;
+    line-height: 26px;
+    text-align: justify;
+}
+
+/* +========== EDUCATION ==========+ */
+
+.education{
+    max-width: 751px;
+}
+
+.education-tittle{
+    color: var(--tittle-section);
+    font-size: 26px;
+    margin-top: 50px;
+}
+
+.education-card-container{
+    flex-wrap: wrap;
+}
+
+.card-education{
+    border: 2px solid #3bacb6;
+    width: 365px;
+    height: 98px;
+    margin-top: 20px;
+    background-color: transparent;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+.card-education:hover{
+    background-color: rgba(59, 172, 182, .2);
+    cursor: default;
+}
+
+.card-education-tittle{
+    color: #ffffff;
+    font-size: 19px;
+    line-height: 23px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.card-education-desc, .card-education-year{
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 1.5px;
+    margin-bottom: 0;
+
+}
+
+.card-education-year{
+    margin-top: 4px;
+}
