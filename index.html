@@ -2,58 +2,72 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/variables.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-            </div>
+
+  <header class="container-flid bg-nav">
+    <nav class="navbar navbar-expand-lg bg-light p-0" id="menu">
+      <div class="container-fluid bg-nav pt-2 pb-2 d-flex justify-content-between">
+
+        <div class="container p-0">
+          <a class="navbar-brand" href="#">
+            <img src="img/navbar/20220223_Logo_v2.svg" alt="ComayoDev">
+          </a>
         </div>
+
+        <button class="navbar-toggler border border-2" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 pe-5">
+            <li class="nav-item pe-4">
+              <a class="nav-link active" aria-current="page" href="#"><span class="nav-link-span">01. </span>About
+                me</a>
+            </li>
+            <li class="nav-item pe-4">
+              <a class="nav-link" href="#"><span class="nav-link-span">02. </span>Skillset</a>
+            </li>
+            <li class="nav-item pe-4">
+              <a class="nav-link" href="#"><span class="nav-link-span">03. </span>Projects</a>
+            </li>
+            <li class="nav-item pe-4">
+              <a class="nav-link" href="#"><span class="nav-link-span">04. </span>Contact</a>
+            </li>
+          </ul>
+          <button type="button" class="btn-resume border border-success rounded-1 ">
+            Resume
+          </button>
+        </div>
+
+      </div>
     </nav>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script> 
+    <section id="hero" class="d-flex justify-content-center flex-column align-items-center">
+      <div class="hero-container ">
+        <img class="hero-img text-center d-block" src="img/about me/20220223_Logo_v1.svg" alt="Logo comayodev">
+        <h2 class="name text-center fw-bold">Ronald Comayan Niño</h2>
+        <h1 class="dev-tittle text-center fw-light">Desarrollador frontend</h1>
+      </div>
+    </section>
+
+  </header>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
