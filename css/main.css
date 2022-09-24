@@ -79,6 +79,10 @@ body{
 
 /* +========== ABOUT ==========+ */
 
+.content{
+    margin-top: 20px;
+}
+
 #about{
     margin-top: 100px;
     background-color: var(--primary-bg);
