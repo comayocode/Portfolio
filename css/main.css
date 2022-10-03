@@ -1,165 +1,292 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-body{
-    font-family: 'Inter', sans-serif;
-    overflow-x: hidden;
-    background-color: var(--body-bg);
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+  background-color: var(--body-bg);
+}
+
+.line {
+  margin-left: 20px;
 }
 
 /* +========== MENU ==========+ */
-#menu li > a{
-    font-size: 16px;
-    font-weight: 400;
-    color: #ffffff;
+#menu li>a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
 }
 
-.navbar{
-    position: fixed;
-    width: 100%;
+.navbar {
+  position: fixed;
+  width: 100%;
 }
 
-.container-fluid{
-    padding: 10px 50px;
+.container-fluid {
+  padding: 10px 50px;
 }
 
-.nav-link-span{
-    font-weight: 600;
+.nav-link-span {
+  font-weight: 600;
+  color: var(--web-primary-color);
 }
 
-.nav-link{
-    width: max-content;
+.nav-link {
+  width: max-content;
 }
 
-#menu li > a:hover{
-    color: var(--web-primary-color);
+#menu li>a:hover {
+  color: var(--web-primary-color);
 }
 
-.bg-nav{
-    background-color: var(--secondary-bg);
+.bg-nav {
+  background-color: var(--secondary-bg);
 }
 
-.btn-resume{
-    background-color: transparent;
-    border: 2px solid var(--web-primary-color);
-    color: var(--web-primary-color);
-    padding: 8px 12px;
-    font-size: 16px;
-    font-weight: 400;
-    transition-duration: 0.6s;
+.btn-resume {
+  background-color: transparent;
+  border: 2px solid var(--web-primary-color);
+  color: var(--web-primary-color);
+  padding: 8px 12px;
+  font-size: 16px;
+  font-weight: 400;
+  transition-duration: 0.6s;
 }
 
-.btn-resume:hover{
-    background-color: var(--hover-btn);
+.btn-resume:hover {
+  background-color: var(--hover-btn);
 }
 
 /* +========== HERO ==========+ */
 
-#hero{
-    background-color: var(--primary-bg);
+#hero {
+  background-color: var(--primary-bg);
 }
 
-.hero-container{
-    max-width: 751px;
-    margin-top: 50px;
+.hero-container {
+  max-width: 751px;
+  margin-top: 50px;
 }
 
-.hero-img{
-    margin: 50px auto 40px auto;
-    margin-top: 50px;
-    width: 291px;
+.hero-img {
+  margin: 50px auto 40px auto;
+  margin-top: 50px;
+  width: 291px;
 }
 
-.name{
-    font-size: 60px;
-    color: #E9DAC1;
+.name {
+  font-size: 60px;
+  color: #e9dac1;
 }
 
-.dev-tittle{
-    color: #ffffff;
+.dev-tittle {
+  color: #ffffff;
 }
 
 /* +========== ABOUT ==========+ */
 
-.content{
-    margin-top: 20px;
+.content {
+  margin-top: 20px;
 }
 
-#about{
-    margin-top: 100px;
-    background-color: var(--primary-bg);
+#about {
+  margin-top: 100px;
+  background-color: var(--primary-bg);
 }
 
-.about-container{
-    max-width: 751px;
+.about-container {
+  max-width: 751px;
 }
 
-.about-me-tittle{
-    color: var(--tittle-section);
-    font-size: 26px;
+.about-me-tittle {
+  color: var(--tittle-section);
+  font-size: 26px;
 }
 
-.about-me-span{
-    color: var(--web-primary-color);
+.about-me-span {
+  color: var(--web-primary-color);
 }
 
-.about-me-line{
-    margin-left: 20px;
-}
-
-.selft-description{
-    color: var(--desc-section);
-    font-size: 22px;
-    line-height: 26px;
-    text-align: justify;
+.selft-description {
+  color: var(--desc-section);
+  font-size: 22px;
+  line-height: 26px;
+  text-align: justify;
 }
 
 /* +========== EDUCATION ==========+ */
 
-.education{
+.education {
+  max-width: 751px;
+}
+
+.education-tittle {
+  color: var(--tittle-section);
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+.education-card-container {
+  flex-wrap: wrap;
+}
+
+.card-education {
+  border: 2px solid #3bacb6;
+  width: 365px;
+  height: 98px;
+  margin-top: 20px;
+  background-color: transparent;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+.card-education:hover {
+  background-color: rgba(59, 172, 182, 0.2);
+  cursor: default;
+}
+
+.card-education-tittle {
+  color: #ffffff;
+  font-size: 19px;
+  line-height: 23px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.card-education-desc,
+.card-education-year {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 1.5px;
+  margin-bottom: 0;
+}
+
+.card-education-year {
+  margin-top: 4px;
+}
+
+/* +========== SKILLS ==========+ */
+
+#skills{
+    margin-top: 130px;
+}
+
+.skills-container{
     max-width: 751px;
 }
 
-.education-tittle{
+.skills-tittle{
     color: var(--tittle-section);
     font-size: 26px;
-    margin-top: 50px;
 }
 
-.education-card-container{
+.skill-container{
+    width: 96px;
+    height: 116px;
+    margin-right: 67px;
+}
+
+
+.software-skills{
     flex-wrap: wrap;
-}
-
-.card-education{
-    border: 2px solid #3bacb6;
-    width: 365px;
-    height: 98px;
+    justify-content: space-between;
     margin-top: 20px;
-    background-color: transparent;
-    transition-property: background-color;
-    transition-duration: 0.5s;
 }
 
-.card-education:hover{
-    background-color: rgba(59, 172, 182, .2);
-    cursor: default;
+.skill-img{
+    margin-top: 31px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
-.card-education-tittle{
-    color: #ffffff;
-    font-size: 19px;
-    line-height: 23px;
-    margin-top: 10px;
-    margin-bottom: 0;
+/* ToolTip hover de Skills */
+.skill-container .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #FCF8E8;
+  color: #313552;
+  text-align: center;
+  border-radius: 20px;
+  padding: 3px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 95%;
+  left: 50%;
+  margin-left: -60px;
+  font-weight: 500;
 }
 
-.card-education-desc, .card-education-year{
-    color: #ffffff;
-    font-size: 18px;
-    line-height: 22px;
-    margin-top: 1.5px;
-    margin-bottom: 0;
-
+.skill-container .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #FCF8E8 transparent transparent transparent;
 }
 
-.card-education-year{
-    margin-top: 4px;
+.skill-container:hover .tooltiptext {
+  visibility: visible;
 }
+/* Animación Desvanecido tooltip*/
+.skill-container .tooltiptext {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.skill-container:hover .tooltiptext {
+  opacity: 1;
+}
+
+.skill-container-5{
+    margin: 0;
+}
+.skill-container-10{
+    margin: 0;
+}
+
+
+
+/* SKILLS CON GRID */
+
+/* .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 96px);
+  grid-template-rows: repeat(2, 116px);
+  max-width: 751px;
+  justify-content: space-between;
+}
+
+.skills{
+  max-width: 751px;
+}
+
+.div{
+  text-align: center;
+  background-color: antiquewhite;
+  border: 1px solid #3bacb6;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(5, 96px);
+  grid-template-rows: repeat(2, 116px);
+  grid-column-gap: 0px;
+  grid-row-gap: 5px;
+  justify-content: space-between;
+  }
+
+  .div1 { grid-area: 1 / 1 / 2 / 2; }
+  .div2 { grid-area: 1 / 2 / 2 / 3; }
+  .div3 { grid-area: 1 / 3 / 2 / 4; }
+  .div4 { grid-area: 1 / 4 / 2 / 5; }
+  .div5 { grid-area: 1 / 5 / 2 / 6; }
+  .div6 { grid-area: 2 / 1 / 3 / 2; }
+  .div7 { grid-area: 2 / 2 / 3 / 3; }
+  .div8 { grid-area: 2 / 3 / 3 / 4; }
+  .div9 { grid-area: 2 / 4 / 3 / 5; }
+  .div10 { grid-area: 2 / 5 / 3 / 6; } */
