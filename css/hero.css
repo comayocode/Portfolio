@@ -1,0 +1,23 @@
+#hero {
+    background-color: var(--primary-bg);
+}
+
+.hero-container {
+    max-width: 751px;
+    margin-top: 50px;
+}
+
+.hero-img {
+    margin: 50px auto 40px auto;
+    margin-top: 50px;
+    width: 291px;
+}
+
+.name {
+    font-size: 60px;
+    color: #e9dac1;
+}
+
+.dev-tittle {
+    color: #ffffff;
+}

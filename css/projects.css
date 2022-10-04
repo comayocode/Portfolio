@@ -1,0 +1,41 @@
+#proyectos {
+    margin-top: 130px;
+}
+
+.cards-container {
+    max-width: 751px;
+    margin-top: 10px;
+}
+
+.card {
+    width: 365px;
+    height: 310px;
+    background-color: #3C3C54;
+    margin-top: 21px;
+    border-radius: 20px;
+    transition: transform 0.8s;
+    /* Animación mover card */
+    border: none;
+}
+
+/* Mover card arriba */
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-img-container {
+    margin: 29px 20px;
+}
+
+/* Cambiar color al SVG */
+.github-color,
+.link-img {
+    margin-left: 15px;
+    color: #EEE6CE;
+    transition: color .6s ease;
+}
+
+.github-color:hover,
+.link-img:hover {
+    color: #82DBD8;
+}

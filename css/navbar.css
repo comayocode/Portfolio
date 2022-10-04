@@ -1,0 +1,46 @@
+#menu li>a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+
+.container-fluid {
+    padding: 10px 50px;
+}
+
+.nav-link-span {
+    font-weight: 600;
+    color: var(--web-primary-color);
+}
+
+.nav-link {
+    width: max-content;
+}
+
+#menu li>a:hover {
+    color: var(--web-primary-color);
+}
+
+.bg-nav {
+    background-color: var(--secondary-bg);
+}
+
+.btn-resume {
+    background-color: transparent;
+    border: 2px solid var(--web-primary-color);
+    color: var(--web-primary-color);
+    padding: 8px 12px;
+    font-size: 16px;
+    font-weight: 400;
+    transition-duration: 0.6s;
+}
+
+.btn-resume:hover {
+    background-color: var(--hover-btn);
+}

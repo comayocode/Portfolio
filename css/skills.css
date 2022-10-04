@@ -1,0 +1,83 @@
+#skills {
+    margin-top: 130px;
+}
+
+.skills-container {
+    max-width: 751px;
+    z-index: 1;
+}
+
+.skills-tittle {
+    color: var(--tittle-section);
+    font-size: 26px;
+}
+
+.skill-container {
+    width: 96px;
+    height: 116px;
+    margin-right: 67px;
+}
+
+
+.software-skills {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.skill-img {
+    margin-top: 31px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* ToolTip hover de Skills */
+.skill-container .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #FCF8E8;
+    color: #313552;
+    text-align: center;
+    border-radius: 20px;
+    padding: 3px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 95%;
+    left: 50%;
+    margin-left: -60px;
+    font-weight: 500;
+}
+
+.skill-container .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #FCF8E8 transparent transparent transparent;
+}
+
+.skill-container:hover .tooltiptext {
+    visibility: visible;
+}
+
+/* Animación Desvanecido tooltip*/
+.skill-container .tooltiptext {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.skill-container:hover .tooltiptext {
+    opacity: 1;
+}
+
+.skill-container-5 {
+    margin: 0;
+}
+
+.skill-container-10 {
+    margin: 0;
+}
