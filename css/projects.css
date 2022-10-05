@@ -14,8 +14,8 @@
     margin-top: 21px;
     border-radius: 20px;
     transition: transform 0.8s;
-    /* Animación mover card */
     border: none;
+    cursor: pointer;
 }
 
 /* Mover card arriba */
@@ -48,6 +48,7 @@
 .titulo-proyecto {
     margin-bottom: 0;
     color: #FFFFFF;
+    font-size: 24px;
 }
 
 .sobre-proyecto {
