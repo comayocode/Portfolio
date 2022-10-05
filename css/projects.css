@@ -24,7 +24,7 @@
 }
 
 .card-img-container {
-    margin: 29px 20px;
+    margin: 29px 20px 0 20px;
 }
 
 /* Cambiar color al SVG */
@@ -38,4 +38,46 @@
 .github-color:hover,
 .link-img:hover {
     color: #82DBD8;
+}
+
+/* Descripcion/texto de la tarjeta */
+.descripcion-proyecto {
+    margin: 25px 20px 0 20px;
+}
+
+.titulo-proyecto {
+    margin-bottom: 0;
+    color: #FFFFFF;
+}
+
+.sobre-proyecto {
+    margin: 10px 0 0 0;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #A8B2D1;
+}
+
+.etiquetas {
+    color: #8892B0;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    margin: 0 20px 30px 20px;
+}
+
+.etiqueta {
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 18px;
+    margin-right: 20px;
+}
+
+.etiquetas-1 {
+    margin-top: 44px;
+}
+
+.etiquetas-2 {
+    margin-top: 36px;
 }
