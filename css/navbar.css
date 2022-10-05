@@ -33,7 +33,7 @@
 
 .btn-resume {
     background-color: transparent;
-    border: 2px solid var(--web-primary-color);
+    border: 1px solid var(--web-primary-color) !important;
     color: var(--web-primary-color);
     padding: 8px 12px;
     font-size: 16px;
