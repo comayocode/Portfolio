@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-:root{
+:root {
   --web-primary-color: #82DBD8;
   --hover-btn: rgba(0, 135, 130, .2);
   --primary-bg: #313552;
@@ -18,4 +18,17 @@ body {
 
 .line {
   margin-left: 20px;
+}
+
+.section-title {
+  color: var(--tittle-section);
+  font-size: 26px;
+}
+
+.title-span {
+  color: var(--web-primary-color);
+}
+
+.up {
+  margin-top: 100px;
 }
