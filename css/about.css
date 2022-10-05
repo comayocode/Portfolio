@@ -9,6 +9,7 @@
 
 .about-container {
     max-width: 751px;
+    z-index: 2;
 }
 
 .selft-description {
@@ -22,6 +23,7 @@
 
 .education {
     max-width: 751px;
+    z-index: 2;
 }
 
 .education-tittle {
