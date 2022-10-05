@@ -7,11 +7,6 @@
     z-index: 1;
 }
 
-.skills-tittle {
-    color: var(--tittle-section);
-    font-size: 26px;
-}
-
 .skill-container {
     width: 96px;
     height: 116px;

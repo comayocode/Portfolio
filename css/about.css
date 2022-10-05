@@ -11,15 +11,6 @@
     max-width: 751px;
 }
 
-.about-me-tittle {
-    color: var(--tittle-section);
-    font-size: 26px;
-}
-
-.about-me-span {
-    color: var(--web-primary-color);
-}
-
 .selft-description {
     color: var(--desc-section);
     font-size: 22px;
