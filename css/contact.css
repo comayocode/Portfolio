@@ -4,6 +4,7 @@
 
 .contact-container {
     max-width: 751px;
+    z-index: 2;
 }
 
 .content {
