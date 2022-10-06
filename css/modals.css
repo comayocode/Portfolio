@@ -95,11 +95,11 @@ button.btn-close {
     background-color: var(--hover-btn);
 }
 
-/* .link-project {
+.link-project {
     text-decoration: none;
     color: var(--web-primary-color);
 }
 
 .link-project:hover {
     color: var(--web-primary-color);
-} */
+}
