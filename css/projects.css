@@ -64,7 +64,6 @@
 }
 
 .etiquetas {
-    color: #8892B0;
     margin-bottom: 30px;
     box-sizing: border-box;
     margin: 0 20px 30px 20px;
@@ -77,6 +76,7 @@
     font-size: 17px;
     line-height: 18px;
     margin-right: 20px;
+    color: #8892B0;
 }
 
 .etiquetas-1 {
@@ -85,4 +85,17 @@
 
 .etiquetas-2 {
     margin-top: 36px;
+}
+
+.etiquetas-3 {
+    margin-top: 16px;
+}
+
+.open-modal{
+    text-decoration: none;
+    color: var(--web-primary-color);
+}
+
+.open-modal:hover{
+    color: aquamarine;
 }
