@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Portfolio Comayocode</title>
+  <link rel="shortcut icon" href="img/navbar/20220223_Logo_v2.svg">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   <link rel="stylesheet" href="css/main.css">
@@ -243,14 +244,13 @@
             <p class="modal-description">Este fue mi primer proyecto o página creada, fue creada para el negocio de un
               familiar que requería de
               una web para atraer clientes. El negocio era principalmente de venta de pollo, pero también ofrecía otros
-              productos los cuales se pueden ver en la sección "Productos". </p>
+              productos los cuales se pueden ver en la sección "Productos".
+            </p>
             <p class="modal-description">El proyecto tiene una estructura simple, todo fue creado 100% vanilla. Usé
-              HTML, CSS aplicando
-              metodología BEM, Mobile First y JavaScript para el manejo del DOM. Para la parte de los sliders y el
-              filtro de la
-              sección de productos se usó JavaScript.</p>
+              HTML, CSS aplicando metodología BEM, Mobile First y JavaScript para el manejo del DOM. Para la parte de los sliders y el filtro de la sección de productos se usó JavaScript.
+            </p>
 
-            <h5 class="body-titles">Tecnologías usadas</h5>
+            <h5 class="body-titles title-tecnologias">Tecnologías usadas</h5>
             <div class="etiquetas-modal-container d-flex">
               <div class="etiqueta-modal">HTML</div>
               <div class="etiqueta-modal">CSS</div>
@@ -277,7 +277,67 @@
       </div>
     </div>
   </div>
+
+  <!-- Modal proyecto Portfolio -->
+  <div class="modal fade" id="modal-portfolio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
+    data-bs-backdrop="static">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header no-border">
+          <h4 class="modal-title">Mi portafolio</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <!-- CONTENIDO DEL MODAL -->
+        <div class="modal-body">
+          <!----- VIDEO DE VIME ----->
+          <h5 class="body-titles body-titles-video">Video de demostración:</h5>
+          <div style="padding:60% 0 0 0;position:relative;">
+            <iframe
+              src="https://player.vimeo.com/video/760061984?h=edf910b898&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+              frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+              style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Portfolio">
+            </iframe>
+          </div>
+
+          <!----- DESCRIPCION DEL PROYECTO ----->
+          <div class="description-modal ">
+            <h5 class="body-titles">Un poco sobre el proyecto</h5>
+            <p class="modal-description">Este proyecto lo creé ya que vi la necesidad de tener mi propio portafolio para
+              poder mostrar un poco de mí, cómo trabajo, que he hecho, que estoy haciendo, y obviamente mostrar qué
+              habilidades poseo. </p>
+            <p class="modal-description">Para el desarrollo usé HTML para estructurar la página, Bootstrap para añadir
+              estilos sin tener que hacerlos desde cero y por supuesto CSS para tener estilos personalizados</p>
+            <p class="modal-description font-monospace text-warning">
+              NOTA: Actualmente está en desarrollo, haciendo mejoras y arreglando detalles.
+            </p>
+
+            <h5 class="body-titles title-tecnologias">Tecnologías usadas</h5>
+            <div class="etiquetas-modal-container d-flex">
+              <div class="etiqueta-modal">HTML</div>
+              <div class="etiqueta-modal">CSS</div>
+              <div class="etiqueta-modal">Bootstrap</div>
+              <div class="etiqueta-modal">Responsive Design</div>
+            </div>
+
+            <!-- ===== BOTONES PARA VER EL PROYECTO ===== -->
+            <div class="links-projects-container">
+              <!-- Boton ver proyecto en vivo -->
+              <button type="button" class="btn-link-project border border-success rounded-1 ">
+                <a target="_blank" class="link-project" href="https://comayodev.netlify.app">Ver en vivo</a>
+              </button>
+
+              <!-- Boton ver proyecto en github -->
+              <button type="button" class="btn-link-project border border-success rounded-1 ">
+                <a target="_blank" class="link-project" href="https://github.com/comayocode/Portfolio">Codigo en
+                  Github</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+
 
   <!-- ========== PROYECTOS ========== -->
   <section id="proyectos" class="d-flex justify-content-center flex-column align-items-center">
@@ -337,14 +397,14 @@
           <div class="descripcion-proyecto">
             <h3 class="titulo-proyecto">Mi portafolio</h3>
             <p class="sobre-proyecto">Mi primer portafolio personal para mostrar mis conocimientos y habilidades en la
-              industria del desarrollo. <a class="open-modal" href="#modal-2" data-bs-toggle="modal" type="button">Leer
+              industria del desarrollo. <a class="open-modal" href="#modal-portfolio" data-bs-toggle="modal"
+                type="button">Leer
                 más...</a> </p>
           </div>
           <!-- Etiquetas lenguajes usados -->
           <div class="etiquetas etiquetas-1 d-flex">
             <div class="etiqueta">HTML</div>
             <div class="etiqueta">CSS</div>
-            <div class="etiqueta">JavaScript</div>
             <div class="etiqueta">Bootstrap</div>
           </div>
         </div>
@@ -385,14 +445,11 @@
           <!-- Titulo y descripción del proyecto -->
           <div class="descripcion-proyecto descripcion-proyecto-2">
             <h3 class="titulo-proyecto">Landing Page Comayan Service</h3>
-            <p class="sobre-proyecto">Diseño y desarrollo de una página de aterrizaje sencilla para un negocio de venta
-              de pollo. <a class="open-modal" href="#modal-2" data-bs-toggle="modal" type="button">Leer más...</a> </p>
+            <p class="sobre-proyecto">Diseño y desarrollo de una página de aterrizaje sencilla para un negocio de venta de pollo.<a class="open-modal" href="#modal-2" data-bs-toggle="modal" type="button">Leer más...</a></p>
             <!-- Etiquetas lenguajes usados -->
           </div>
-          <div class="etiquetas etiquetas-2 d-flex ">
-            <div class="etiqueta">HTML</div>
-            <div class="etiqueta">CSS</div>
-            <div class="etiqueta">JavaScript</div>
+          <div class="etiquetas etiquetas-2 d-flex">
+            <div class="etiqueta">HTML</div><div class="etiqueta">CSS</div><div class="etiqueta">JavaScript</div>
           </div>
         </div>
 

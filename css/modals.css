@@ -47,6 +47,10 @@ button.btn-close {
     color: var(--tittle-section);
 }
 
+.title-tecnologias{
+    margin-top: 30px;
+}
+
 .modal-description {
     color: #C7CDDF;
     font-weight: 500;
