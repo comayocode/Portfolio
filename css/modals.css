@@ -4,8 +4,10 @@
 
 /* MODAL 2 */
 .modal.fade.show {
-    transition: backdrop-filter .3s ease;
+    /* +----- AVERIGUAR EL BUG DE LAG EN CHROME -----+
     backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+     */
 }
 
 .modal-content {
