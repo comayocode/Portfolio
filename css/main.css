@@ -16,6 +16,9 @@ body {
   background-color: var(--body-bg);
 }
 
+a{
+  text-decoration: none;
+}
 .line {
   margin-left: 20px;
 }

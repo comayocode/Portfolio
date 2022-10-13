@@ -3,12 +3,12 @@
 }
 
 /* MODAL 2 */
+/* +----- AVERIGUAR EL BUG DE LAG EN CHROME -----+
 .modal.fade.show {
-    /* +----- AVERIGUAR EL BUG DE LAG EN CHROME -----+
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-     */
 }
+*/
 
 .modal-content {
     background-color: #313552;
