@@ -19,6 +19,11 @@ body {
 a{
   text-decoration: none;
 }
+
+section[id]{
+  scroll-margin-top: 75px; /* Evitar que el menú se "coma" parte del HTML al dar clic al menú*/
+}
+
 .line {
   margin-left: 20px;
 }
