@@ -39,6 +39,7 @@
     font-size: 16px;
     font-weight: 400;
     transition-duration: 0.4s;
+    line-height: 24px;
 }
 
 .btn-resume:hover {
