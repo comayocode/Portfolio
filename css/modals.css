@@ -122,22 +122,3 @@ button.btn-close {
 .link-project:hover {
     color: var(--web-primary-color);
 }
-
-/* ESTILOS MEDIOS DE CONTACTO MODAL ANIDADO */
-
-.twitter-color,
-.gmail-color,
-.linkedin-color{
-    color: #EEE6CE;
-    transition: color .6s ease;
-}
-
-.twitter-color:hover,
-.gmail-color:hover,
-.linkedin-color:hover{
-    color: #82DBD8;
-}
-
-.social-svg-container{
-    margin-right: 15px;
-}

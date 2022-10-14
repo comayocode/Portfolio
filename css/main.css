@@ -8,6 +8,8 @@
   --body-bg: #313552;
   --tittle-section: #FCF8E8;
   --desc-section: #C7CDDF;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -23,6 +25,35 @@ a{
 section[id]{
   scroll-margin-top: 75px; /* Evitar que el menú se "coma" parte del HTML al dar clic al menú*/
 }
+
+/* ------------------------------------------------------------------ */
+/* ESTILOS MODAL MEDIOS DE CONTACTO, MODAL ANIDADO & LATERAL CONTACT */
+
+.twitter-color,
+.gmail-color,
+.linkedin-color,
+.github-lateral-color,
+.gmail-lateral-color{
+    color: #EEE6CE;
+    transition: color .6s ease;
+    transition: transform 0.5s;
+}
+
+.twitter-color:hover,
+.gmail-color:hover,
+.linkedin-color:hover,
+.github-lateral-color:hover,
+.gmail-lateral-color:hover{
+    transform: translateY(-5px);
+    color: #82DBD8;
+    cursor: pointer;
+}
+
+.social-svg-container{
+    margin-right: 15px;
+}
+
+/* ------------------------------------------------------------------ */
 
 .line {
   margin-left: 20px;
