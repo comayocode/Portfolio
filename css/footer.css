@@ -1,0 +1,29 @@
+footer {
+    width: 100%;
+    height: 90px;
+    background-color: var(--secondary-bg);
+    margin-top: 50px;
+}
+
+.footer-content {
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 400px;
+    height: 50px;
+    margin: 0;
+    z-index: 2;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: var(--web-primary-color);
+}
+
+.footer-link:hover{
+    color: aquamarine;
+}

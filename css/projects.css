@@ -2,6 +2,10 @@
     margin-top: 130px;
 }
 
+.proyectos-container{
+    z-index: 2;
+}
+
 .cards-container {
     max-width: 751px;
     margin-top: 10px;
@@ -14,8 +18,8 @@
     margin-top: 21px;
     border-radius: 20px;
     transition: transform 0.8s;
-    /* Animación mover card */
     border: none;
+    cursor: default;
 }
 
 /* Mover card arriba */
@@ -48,6 +52,7 @@
 .titulo-proyecto {
     margin-bottom: 0;
     color: #FFFFFF;
+    font-size: 24px;
 }
 
 .sobre-proyecto {
@@ -59,7 +64,6 @@
 }
 
 .etiquetas {
-    color: #8892B0;
     margin-bottom: 30px;
     box-sizing: border-box;
     margin: 0 20px 30px 20px;
@@ -72,6 +76,7 @@
     font-size: 17px;
     line-height: 18px;
     margin-right: 20px;
+    color: #8892B0;
 }
 
 .etiquetas-1 {
@@ -80,4 +85,17 @@
 
 .etiquetas-2 {
     margin-top: 36px;
+}
+
+.etiquetas-3 {
+    margin-top: 16px;
+}
+
+.open-modal{
+    text-decoration: none;
+    color: var(--web-primary-color);
+}
+
+.open-modal:hover{
+    color: aquamarine;
 }

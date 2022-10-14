@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-:root{
+:root {
   --web-primary-color: #82DBD8;
   --hover-btn: rgba(0, 135, 130, .2);
   --primary-bg: #313552;
@@ -8,6 +8,8 @@
   --body-bg: #313552;
   --tittle-section: #FCF8E8;
   --desc-section: #C7CDDF;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -16,6 +18,60 @@ body {
   background-color: var(--body-bg);
 }
 
+a{
+  text-decoration: none;
+}
+
+section[id]{
+  scroll-margin-top: 75px; /* Evitar que el menú se "coma" parte del HTML al dar clic al menú*/
+}
+
+/* ------------------------------------------------------------------ */
+/* ESTILOS MODAL MEDIOS DE CONTACTO, MODAL ANIDADO & LATERAL CONTACT */
+
+.twitter-color,
+.gmail-color,
+.linkedin-color,
+.github-lateral-color,
+.gmail-lateral-color{
+    color: #EEE6CE;
+    transition: color .6s ease;
+    transition: transform 0.5s;
+}
+
+.twitter-color:hover,
+.gmail-color:hover,
+.linkedin-color:hover,
+.github-lateral-color:hover,
+.gmail-lateral-color:hover{
+    transform: translateY(-5px);
+    color: #82DBD8;
+    cursor: pointer;
+}
+
+.social-svg-container{
+    margin-right: 15px;
+}
+
+/* ------------------------------------------------------------------ */
+
 .line {
   margin-left: 20px;
+}
+
+.section-title {
+  color: var(--tittle-section);
+  font-size: 26px;
+}
+
+.title-span {
+  color: var(--web-primary-color);
+}
+
+.up {
+  margin-top: 100px;
+}
+
+.btn-up {
+  z-index: 2;
 }
