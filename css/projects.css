@@ -17,14 +17,14 @@
     background-color: #3C3C54;
     margin-top: 21px;
     border-radius: 20px;
-    transition: transform 0.8s;
+    transition: transform 0.4s;
     border: none;
     cursor: default;
 }
 
 /* Mover card arriba */
 .card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-10px) !important;
 }
 
 .card-img-container {
