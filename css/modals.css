@@ -39,6 +39,10 @@ button.btn-close {
     width: 100%;
 }
 
+.description-modal-view-code{
+    width: 100%;
+}
+
 .modal-title{
     color: var(--tittle-section);
 }
@@ -49,6 +53,10 @@ button.btn-close {
 
 .title-tecnologias{
     margin-top: 30px;
+}
+
+.modal-body{
+    padding-top: 0;
 }
 
 .modal-description {
@@ -86,6 +94,11 @@ button.btn-close {
     margin-bottom: 50px;
 }
 
+.btn-back-modal{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 .btn-link-project{
     background-color: transparent;
     border: 1px solid var(--web-primary-color) !important;
@@ -108,4 +121,23 @@ button.btn-close {
 
 .link-project:hover {
     color: var(--web-primary-color);
+}
+
+/* ESTILOS MEDIOS DE CONTACTO MODAL ANIDADO */
+
+.twitter-color,
+.gmail-color,
+.linkedin-color{
+    color: #EEE6CE;
+    transition: color .6s ease;
+}
+
+.twitter-color:hover,
+.gmail-color:hover,
+.linkedin-color:hover{
+    color: #82DBD8;
+}
+
+.social-svg-container{
+    margin-right: 15px;
 }
