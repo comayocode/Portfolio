@@ -98,21 +98,26 @@ section[id]{
 
   .show-mobile {
     height: 100%;
+    position: relative;
+    bottom: 60px;
   }
 
   .mobile-content > h3 {
     color: var(--tittle-section);
+    font-size: 22px;
   }
 
   .mobile-content > p {
     color: var(--desc-section);
-    font-size: 20px;
+    font-size: 18px;
     max-width: 250px;
     align-items: justify;
   }
 
   .mobile-content > img {
-    padding-top: 50px;
+    padding-top: 30px;
+    margin: 10px auto;
+    display: block;
   }
 
   .mobile-content {
@@ -129,5 +134,10 @@ section[id]{
   .show-mobile div {
     width: 250px;
     height: 100%;
+  }
+
+  .img-mobile-container {
+    max-width: 250px;
+    margin: 0 auto;
   }
 }
