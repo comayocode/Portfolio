@@ -23,19 +23,21 @@ a{
 }
 
 section[id]{
-  scroll-margin-top: 75px; /* Evitar que el menú se "coma" parte del HTML al dar clic al menú*/
+  scroll-margin-top: 30px; /* Evitar que el menú se "coma" parte del HTML al dar clic al menú*/
 }
 
 /* ------------------------------------------------------------------ */
-/* ESTILOS MODAL MEDIOS DE CONTACTO, MODAL ANIDADO & LATERAL CONTACT */
+/* ESTILOS MODAL MEDIOS DE CONTACTO, MODAL ANIDADO, LATERAL CONTACT, BTN UP & DOWN */
 
 .twitter-color,
 .gmail-color,
 .linkedin-color,
 .github-lateral-color,
-.gmail-lateral-color{
+.gmail-lateral-color,
+.btn-up-color,
+.btn-down-color{
     color: #EEE6CE;
-    transition: color .6s ease;
+    transition: color .2s;
     transition: transform 0.5s;
 }
 
@@ -43,7 +45,9 @@ section[id]{
 .gmail-color:hover,
 .linkedin-color:hover,
 .github-lateral-color:hover,
-.gmail-lateral-color:hover{
+.gmail-lateral-color:hover,
+.btn-up-color:hover,
+.btn-down-color:hover{
     transform: translateY(-5px);
     color: #82DBD8;
     cursor: pointer;
@@ -74,4 +78,56 @@ section[id]{
 
 .btn-up {
   z-index: 2;
+}
+
+/* OCULTAR DIV PARA DISPOSITIVOS ESCRITORIO */
+@media (min-width: 991px){
+  .show-mobile {
+    display: none;
+  }
+}
+
+/* MOSTRAR ÚNICAMENTE DIV PARA DISPOSITIVOS EN MOVILES */
+@media (max-width: 992px){
+  section[id],
+  footer[class],
+  nav,
+  svg{
+    display: none !important;
+  }
+
+  .show-mobile {
+    height: 100%;
+  }
+
+  .mobile-content > h3 {
+    color: var(--tittle-section);
+  }
+
+  .mobile-content > p {
+    color: var(--desc-section);
+    font-size: 20px;
+    max-width: 250px;
+    align-items: justify;
+  }
+
+  .mobile-content > img {
+    padding-top: 50px;
+  }
+
+  .mobile-content {
+    width: 300px;
+    height: 100%;
+  }
+
+  .show-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .show-mobile div {
+    width: 250px;
+    height: 100%;
+  }
 }
