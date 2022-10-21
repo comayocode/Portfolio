@@ -100,3 +100,7 @@
 .open-modal:hover{
     color: aquamarine;
 }
+
+.etiqueta-modal {
+    padding-top: 8px;
+}
