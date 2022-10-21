@@ -9,6 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/variables.css">
@@ -26,49 +27,40 @@
 <body>
 
   <header class="container-flid bg-nav">
-    <nav class="navbar navbar-expand-lg bg-light p-0" id="menu">
-      <div class="container-fluid bg-nav pt-2 pb-2 d-flex justify-content-between">
 
-        <!----- Logo ----->
-        <div class="container p-0">
+    <nav id="menu" class="navbar container-fluid">
+
+      <!----- Logo ----->
+        <div class="">
           <a class="navbar-brand" href="#">
             <img src="img/navbar/20220223_Logo_v2.svg" alt="ComayoDev">
           </a>
         </div>
 
-        <!----- Burger menu ----->
-        <button class="navbar-toggler border border-2" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <!----- Menu ----->
-        <div class="collapse navbar-collapse " id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 pe-5">
-            <li class="nav-item pe-4">
-              <a class="nav-link active" aria-current="page" href="#about"><span class="nav-link-span">01. </span>About
-                me</a>
-            </li>
-            <li class="nav-item pe-4">
-              <a class="nav-link" href="#skills"><span class="nav-link-span">02. </span>Skillset</a>
-            </li>
-            <li class="nav-item pe-4">
-              <a class="nav-link" href="#proyectos"><span class="nav-link-span">03. </span>Projects</a>
-            </li>
-            <li class="nav-item pe-4">
-              <a class="nav-link" href="#contacto"><span class="nav-link-span">04. </span>Contact</a>
-            </li>
-          </ul>
-
-          <a href="" download="CV_RonaldComayan-comayodev.pdf">
+      <div id="primary-navigation" class="d-flex align-items-center">
+        <ul  class="primary-navigation d-flex">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about"><span class="nav-link-span">01. </span>Sombre mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills"><span class="nav-link-span">02. </span>Habilidades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proyectos"><span class="nav-link-span">03. </span>Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto"><span class="nav-link-span">04. </span>Contacto</a>
+          </li>
+          <!-- Boton descargar resume -->
+          <a href="download/20221021_CurriculumRonaldComayan.pdf" download="20221021_CurriculumRonaldComayan.pdf">
             <button type="button" class="btn-resume border border-success rounded-1 ">
               Curriculum
             </button>
           </a>
-        </div>
-
+        </ul>
       </div>
+      <!-- Botón menú hamburguesa -->
+      <!-- <div id="menu-btn" class="fas fa-bars"></div> -->
     </nav>
 
     <!----- Hero ----->
@@ -435,46 +427,40 @@
   </div>
 
   <!-- Modal para aplicación BubbleDog -->
-  <div class="modal fade" id="modal-gestor" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
+  <div class="modal fade" id="modal-bubbledog" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
     data-bs-backdrop="static">
     <div class="modal-dialog modal-lg modal-dialog-scrollable">
       <div class="modal-content">
         <div class="modal-header no-border">
-          <h4 class="modal-title">Programa de escritorio para Gestor de inventario</h4>
+          <h4 class="modal-title">Aplicación web para SPA de mascotas</h4>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <!-- CONTENIDO DEL MODAL -->
         <div class="modal-body">
           <!----- VIDEO DE VIME ----->
-          <h5 class="body-titles body-titles-video">Video de demostración:</h5>
+          <h5 class="body-titles body-titles-video">Video de demostración del prototipado en Figma:</h5>
           <div style="padding:60% 0 0 0;position:relative;">
-            <iframe src="https://player.vimeo.com/video/760083816?h=7030213a45&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Navegaci&amp;oacute;n Gestor inventario.mp4"></iframe>
+            <iframe src="https://player.vimeo.com/video/762815273?h=afc437555a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Dise&amp;ntilde;o y prototipado del proyecto BubbleDog.mp4"></iframe>
           </div>
 
           <!----- DESCRIPCION DEL PROYECTO ----->
           <div class="description-modal ">
             <h5 class="body-titles">Un poco sobre el proyecto</h5>
-            <p class="modal-description">Este proyecto se está realizando con el fin de agilizar la gestión del inventario de un negocio de venta de productos cárnicos, especialmente pollo. Hasta ahora el negocio maneja el inventario de manera manual (en cuadernos fisicos). Con este programa automatizaría la entrada y salida de producto, así como las cuentas de las ventas y compras de los mismos.</p>
-            <p class="modal-description">Para el desarrollo se usó el lenguaje Java, aplicando el patron de diseño MVC o Modelo-Vista-Controlador, el diseño de la interfaz se hizo en Figma, se usó Java Swing para aplicar el diseño de figma dentro de Java. Todas las entradas, salidas y registros en general se almacenan en una base de datos de MySQL.</p>
-            <h6 class="body-titles"> Principales caracteristicas o funciones del programa:</h6>
-            <ul class="modal-description">
-              <li>Agregar productos</li>
-              <li>Agregar clientes</li>
-              <li>Agregar proveedores</li>
-              <li>Realizar entradas de producto</li>
-              <li>Realizar salidas de producto</li>
-              <li>Generar reportes en PDF</li>
-            </ul>
-            <p class="modal-description font-monospace text-warning">
-              NOTA: Actualmente está en desarrollo, haciendo mejoras y arreglando detalles.
-            </p>
+            <p class="modal-description">Proyecto del ciclo 3 (de 4 ciclos) de Misiontic2022 en la Universidad Tecnológica de Pereira. El proyecto fue realizado dentro de un equipo de 5 personas en el que desempeñé el rol de líder o "Gestor del proyecto" organizando tareas, realizando historias de usuario, product backlog, entre otras... Además hice gran parte del diseño de la aplicación usando Figma. </p>
+            <p class="modal-description">El proyecto tiene como finalidad permitirle al dueño de un SPA de mascotas llevar un control de los servicios prestados a las mascotas de sus clientes. La aplicación tiene como funcionalidades agregar, eliminar, editar y visualizar clientes, servicios que presta el SPA y los servicios prestados a las mascotas de los clientes</p>
+            <p class="modal-description">En el desarrollo del Frontend se realizó con HTML, CSS, JavaScript y Bootstrap. Por el lado del Backend se usó Java con SpringBoot e Hibernate y la arquitectura de microservicios. Todo el proyecto fue realizado bajo la metodología SCRUM realizando la entrega de 4 Sprints.</p>
 
             <h5 class="body-titles title-tecnologias">Tecnologías usadas</h5>
-            <div class="etiquetas-modal-container d-flex">
+            <div class="etiquetas-modal-container d-flex flex-wrap">
+              <div class="etiqueta-modal">HTML/CSS</div>
+              <div class="etiqueta-modal">JavaScript</div>
               <div class="etiqueta-modal">Java</div>
+              <div class="etiqueta-modal">SpringBoot</div>
+              <div class="etiqueta-modal">Hibernate</div>
               <div class="etiqueta-modal">MySQL</div>
-              <div class="etiqueta-modal">MVC(Modelo-Vista-Controlador)</div>
+              <div class="etiqueta-modal">Microservicios</div>
               <div class="etiqueta-modal">Figma</div>
+              <div class="etiqueta-modal">SCRUM</div>
             </div>
 
             <!-- ===== BOTONES PARA VER EL PROYECTO ===== -->
@@ -486,7 +472,7 @@
 
               <!-- Boton ver proyecto en github -->
               <button type="button" class="btn-link-project border border-success rounded-1 ">
-                <a target="_blank" class="link-project" href="https://github.com/comayocode/Portfolio">Codigo en
+                <a target="_blank" class="link-project" href="https://github.com/comayocode/BubleDog-BU">Codigo en
                   Github</a>
               </button>
             </div>
@@ -756,7 +742,7 @@
           <div class="descripcion-proyecto descripcion-proyecto-2">
             <h3 class="titulo-proyecto">Aplicación Web BubbleDog</h3>
             <p class="sobre-proyecto">Proyecto colaborativo que tiene como funcionalidad registrar mascotas, clientes,
-              servicios para un Spa de perros. <a class="open-modal" href="#modal-2" data-bs-toggle="modal"
+              servicios para un Spa de perros. <a class="open-modal" href="#modal-bubbledog" data-bs-toggle="modal"
                 type="button">Leer más...</a> </p>
             <!-- Etiquetas lenguajes usados -->
           </div>
@@ -812,10 +798,21 @@
 
   <div class="show-mobile">
     <div class="mobile-content">
-      <h3>¡Ups! Parece que no hay nada aquí.</h3>
-      <p>Aún está en desarrollo la versión para dispositivos mobile, pronto estará disponible.</p>
-      <p>Te invito a que revises mi portafolio desde un computador.</p>
-      <img class="show-mobile-img center-block" src="img/mobile/designer.svg">
+      <h3>¡Ups! Parece que no hay nada aquí 😕</h3>
+      <p>Aún está en desarrollo la versión para dispositivos mobile, estará disponible lo más pronto posible.</p>
+      <p>Te invito a que revises mi portafolio desde una laptop o computador de escritorio.</p>
+      <!-- <img class="show-mobile-img center-block" src="img/mobile/designer.svg"> -->
+
+      <h3>Mientras tanto puedes darle un ojo a mi CV 👇</h3>
+
+      <!-- Boton descargar resume -->
+      <div class="mobile-cv-containter">
+        <a href="download/20221021_CurriculumRonaldComayan.pdf" download="20221021_CurriculumRonaldComayan.pdf">
+          <button type="button" class="btn-resume border border-success rounded-1 ">
+            Curriculum
+          </button>
+        </a>
+      </div>
     </div>
   </div>
 
