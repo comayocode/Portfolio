@@ -17,7 +17,8 @@
     color: var(--desc-section);
     font-size: 22px;
     line-height: 26px;
-    text-align: justify;
+    font-weight: 500;
+    word-spacing: 0.2rem
 }
 
 /* +========== EDUCATION ==========+ */
