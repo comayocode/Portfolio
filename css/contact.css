@@ -40,6 +40,10 @@
 }
 
 .btn-contact:hover {
+    color: var(--web-primary-color);
+}
+
+.btn-contact:hover {
     background-color: var(--hover-btn);
 }
 

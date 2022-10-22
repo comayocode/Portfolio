@@ -1,3 +1,15 @@
+#menu {
+    background-color: var(--menu-bg);
+}
+
+#menu ul{
+    margin-bottom: 0;
+}
+
+#menu li {
+    list-style: none;
+}
+
 #menu li>a {
     font-size: 16px;
     font-weight: 400;
@@ -11,7 +23,11 @@
 }
 
 .container-fluid {
-    padding: 10px 50px;
+    padding: 8px 50px;
+}
+
+.primary-navigation{
+    /* padding-right: 3rem; */
 }
 
 .nav-link-span {
@@ -21,6 +37,13 @@
 
 .nav-link {
     width: max-content;
+    height: 40px;
+    padding: 8px;
+    display: block;
+}
+
+.nav-item{
+    padding-right: 1.5rem;
 }
 
 #menu li>a:hover {

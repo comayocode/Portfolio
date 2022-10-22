@@ -17,7 +17,7 @@
 
 .software-skills {
     flex-wrap: wrap;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin-top: 20px;
 }
 
@@ -28,6 +28,13 @@
     display: block;
 }
 
+.margin-js {
+    margin-top: 35px;
+}
+
+.margin-java {
+    margin-top: 26px;
+}
 /* ToolTip hover de Skills */
 .skill-container .tooltiptext {
     visibility: hidden;

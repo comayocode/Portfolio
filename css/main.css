@@ -5,6 +5,7 @@
   --hover-btn: rgba(0, 135, 130, .2);
   --primary-bg: #313552;
   --secondary-bg: #272A40;
+  --menu-bg: rgba(39, 42, 64, .9);
   --body-bg: #313552;
   --tittle-section: #FCF8E8;
   --desc-section: #C7CDDF;
@@ -23,7 +24,7 @@ a{
 }
 
 section[id]{
-  scroll-margin-top: 30px; /* Evitar que el menú se "coma" parte del HTML al dar clic al menú*/
+  scroll-margin-top: 20px; /* Evitar que el menú se "coma" parte del HTML al dar clic al menú*/
 }
 
 /* ------------------------------------------------------------------ */
@@ -139,5 +140,9 @@ section[id]{
   .img-mobile-container {
     max-width: 250px;
     margin: 0 auto;
+  }
+
+  .mobile-cv-containter {
+    padding-top: 15px;
   }
 }

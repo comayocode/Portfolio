@@ -29,7 +29,7 @@
 }
 
 .card-img-container {
-    margin: 29px 20px 0 20px;
+    margin: 29px 25px 0 20px;
 }
 
 /* Cambiar color al SVG */
@@ -99,4 +99,8 @@
 
 .open-modal:hover{
     color: aquamarine;
+}
+
+.etiqueta-modal {
+    padding-top: 8px;
 }

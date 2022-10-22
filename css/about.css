@@ -72,3 +72,9 @@
 .card-education-year {
     margin-top: 4px;
 }
+
+@media (max-width: 1280px){
+    .selft-description {
+        font-size: 20px;
+    }
+}
