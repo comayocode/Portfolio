@@ -1,5 +1,8 @@
 #menu {
     background-color: var(--menu-bg);
+    box-shadow: 0 2px 20px -10px #000;
+    transition: top .2s ease !important; /* --- Por arreglar: No carga la animación por primera vez al recargar la página --- */
+    transition-delay: .1s;
 }
 
 #menu ul{
