@@ -145,4 +145,8 @@ section[id]{
   .mobile-cv-containter {
     padding-top: 15px;
   }
+
+  .mobile-cv-containter a{
+    color: var(--web-primary-color);
+  }
 }
